@@ -50,21 +50,30 @@
 
         .boll {
             border: 1px solid;
-            height: 30px;
-            width: 30px;
+            height: 50px;
+            width: 50px;
             border-radius: 50%;
             background-color: red;
             position: relative;
-            top: 10px;
-            left: 330px;
-            transition: transform .2s ease-in-out, ;
-            transition: background-color 2s, transform 1s;
+            top: 40px;
+            left: 0px;
+            transition: transform 1s ease-out 0.3s;transform: 1s;
             transition-delay: .3s;
         }
 
         .flid:hover .boll {
             background-color: rgb(50, 29, 212);
-            transform: translate(1000px, -80px);
+
+            transform: translate(750px, -100px);
+        }
+        .six{
+            color: white;
+        }
+        .six:hover{
+            font-size: 45px;
+            font-weight: 900;
+            color: blue;
+
         }
     </style>
 </head>
@@ -84,8 +93,10 @@
             </div>
         </nav>
     </header>
-    <div class="flid"><img class="bat" src="./images/bat.png" alt="">
-<img class="boll" style="height: 80px ;" src="./images/rimon.png" alt="">
+    <div class="flid">
+        <p class="six">_____SIX_____ </p>
+        <img class="bat" src="./images/bat.png" alt="">
+        <img class="boll" style="height: 50px ;" src="./images/rimon.png" alt="">
         <!-- <div class="boll"></div> -->
     </div>
 </body>
